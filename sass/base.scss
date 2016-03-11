@@ -1,0 +1,138 @@
+/*
+	@_IOERROR
+
+	Created by Joss York	
+*/
+
+
+
+/************************/
+/*	
+/*	1 - Import Documentation
+/*
+/************************/
+
+
+@import '_reset.scss';
+@import '_mixins.scss';
+
+
+
+/************************/
+/*	
+/*	2 - Main Styling
+/*
+/************************/
+
+#wrapper{
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+.sectioncontent{
+  	width: 1000px;
+  	margin: 0 auto;
+}
+
+
+
+/************************/
+/*	
+/*	3 - Element Styling
+/*
+/************************/
+
+header{
+	width: 100%;
+	min-width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+	background: url(../images/header_bg.png) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	.sectioncontent{
+		width: 800px;
+		margin: 0 auto;
+		padding-top: 125px;
+
+		#logo{
+			text-align: center;
+			margin-bottom: 40px;
+
+			img{
+				margin-bottom: 15px;
+			}
+
+			p{
+				font-size: 16px;
+				font-weight: 400;
+				letter-spacing: .25px;
+				color: #ffffff;
+				opacity: 0.7;
+			}
+		}
+
+		#form{
+			width: 700px;
+			margin: 0 auto;
+
+			#searchbar{
+				width: 700px;
+				height: 10px;
+				padding: 20px 15px;
+				border: none;
+				outline: none;
+				color: rgba(0,0,0,0.4);
+				font-size: 12px;
+			}
+		}
+	}
+}
+
+
+#results{
+	width: 1200px;
+	margin: 0 auto;
+
+	.searchresult{
+		width: 300px;
+		height: 300px;
+		margin-bottom: -3px;
+	}
+}
+
+footer{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	border-top: 1px solid rgba(0,0,0,0.3);
+	text-align: center;
+
+	h1, h2{
+		font-size: 12px;
+		font-weight: 400;
+		color: rgba(0,0,0,0.5);
+	}
+
+	h1{
+		margin-bottom: 10px;
+	}
+
+	h2{
+		a{
+			color: rgba(0,0,0,0.75);
+			@include animation(.3s);
+		}
+
+		a:hover{
+			color: rgba(0,0,0,0.9);
+		}
+	}
+}
+

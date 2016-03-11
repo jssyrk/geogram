@@ -1,0 +1,212 @@
+/*
+	@_IOERROR
+
+	Created by Joss York	
+*/
+/************************/
+/*	
+/*	1 - Import Documentation
+/*
+/************************/
+/* line 1, ../sass/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 21, ../sass/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, ../sass/_reset.scss */
+html {
+  font-size: 100%;
+}
+
+/* line 28, ../sass/_reset.scss */
+body {
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 33, ../sass/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 36, ../sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 39, ../sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 44, ../sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 49, ../sass/_reset.scss */
+a {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 55, ../sass/_reset.scss */
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 59, ../sass/_reset.scss */
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+/**
+
+Grid
+
+**/
+/************************/
+/*	
+/*	2 - Main Styling
+/*
+/************************/
+/* line 27, ../sass/base.scss */
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 33, ../sass/base.scss */
+.sectioncontent {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/************************/
+/*	
+/*	3 - Element Styling
+/*
+/************************/
+/* line 46, ../sass/base.scss */
+header {
+  width: 100%;
+  min-width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  background: url(../images/header_bg.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 57, ../sass/base.scss */
+header .sectioncontent {
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 125px;
+}
+/* line 62, ../sass/base.scss */
+header .sectioncontent #logo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* line 66, ../sass/base.scss */
+header .sectioncontent #logo img {
+  margin-bottom: 15px;
+}
+/* line 70, ../sass/base.scss */
+header .sectioncontent #logo p {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .25px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+/* line 79, ../sass/base.scss */
+header .sectioncontent #form {
+  width: 700px;
+  margin: 0 auto;
+}
+/* line 83, ../sass/base.scss */
+header .sectioncontent #form #searchbar {
+  width: 700px;
+  height: 10px;
+  padding: 20px 15px;
+  border: none;
+  outline: none;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 12px;
+}
+
+/* line 97, ../sass/base.scss */
+#results {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* line 101, ../sass/base.scss */
+#results .searchresult {
+  width: 300px;
+  height: 300px;
+  margin-bottom: -3px;
+}
+
+/* line 108, ../sass/base.scss */
+footer {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+/* line 117, ../sass/base.scss */
+footer h1, footer h2 {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+/* line 123, ../sass/base.scss */
+footer h1 {
+  margin-bottom: 10px;
+}
+/* line 128, ../sass/base.scss */
+footer h2 a {
+  color: rgba(0, 0, 0, 0.75);
+  transition: 0.3s;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+/* line 133, ../sass/base.scss */
+footer h2 a:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
